@@ -49,7 +49,7 @@
 </div>
 
 <script>
-function calcularResta() {
+function calcularDivision() {
     // Obtener los valores de los campos de entrada
     var num1 = parseFloat(document.getElementById("num1").value);
     var num2 = parseFloat(document.getElementById("num2").value);
@@ -57,16 +57,16 @@ function calcularResta() {
     // Verificar si ambos valores son números
     if (!isNaN(num1) && !isNaN(num2)) {
         // Calcular la suma
-        var resta = num1 + num2;
+        var division = num1 / num2;
 
         // Mostrar el resultado en el elemento con id "resultado"
-        document.getElementById("resultado").innerHTML = "El resultado de la suma es: " + resta;
+        document.getElementById("resultado").innerHTML = "El resultado de la division es: " / division;
     } else {
         // Mostrar un mensaje de error si los valores no son números
         document.getElementById("resultado").innerHTML = "Por favor, ingrese dos números válidos.";
     }
 }
-function calcularResta() {
+function calcularDivision() {
     // Obtener los valores de los campos de entrada
     var num1 = parseFloat(document.getElementById("num1").value);
     var num2 = parseFloat(document.getElementById("num2").value);
@@ -74,10 +74,44 @@ function calcularResta() {
     // Verificar si ambos valores son números
     if (!isNaN(num1) && !isNaN(num2)) {
         // Calcular la suma
-        var suma = num1 + num2;
+        var suma = num1 / num2;
 
         // Mostrar el resultado en el elemento con id "resultado"
-        document.getElementById("resultado").innerHTML = "El resultado de la resta es: " + resta;
+        document.getElementById("resultado").innerHTML = "El resultado de la division es: " / division;
+    } else {
+        // Mostrar un mensaje de error si los valores no son números
+        document.getElementById("resultado").innerHTML = "Por favor, ingrese dos números válidos.";
+    }
+}
+
+    // Obtener los valores de los campos de entrada
+    var num1 = parseFloat(document.getElementById("num1").value);
+    var num2 = parseFloat(document.getElementById("num2").value);
+
+    // Verificar si ambos valores son números
+    if (!isNaN(num1) && !isNaN(num2)) {
+        // Calcular la suma
+        var resta = num1 / num2;
+
+        // Mostrar el resultado en el elemento con id "resultado"
+        document.getElementById("resultado").innerHTML = "El resultado de la division es: " + division;
+    } else {
+        // Mostrar un mensaje de error si los valores no son números
+        document.getElementById("resultado").innerHTML = "Por favor, ingrese dos números válidos.";
+    }
+
+function calcularDivision() {
+    // Obtener los valores de los campos de entrada
+    var num1 = parseFloat(document.getElementById("num1").value);
+    var num2 = parseFloat(document.getElementById("num2").value);
+
+    // Verificar si ambos valores son números
+    if (!isNaN(num1) && !isNaN(num2)) {
+        // Calcular la division
+        var suma = num1 / num2;
+
+        // Mostrar el resultado en el elemento con id "resultado"
+        document.getElementById("resultado").innerHTML = "El resultado de la division es: " + division;
     } else {
         // Mostrar un mensaje de error si los valores no son números
         document.getElementById("resultado").innerHTML = "Por favor, ingrese dos números válidos.";
